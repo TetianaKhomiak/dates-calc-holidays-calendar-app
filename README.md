@@ -29,5 +29,8 @@ https://tetianakhomiak.github.io/dates-calc-holidays-calendar-app/
 
 ## Features 📋
 ⚡️ Fully Responsive 
+
 ⚡️ HTML5 & CSS3 
+
 ⚡️ Vanilla JS 
+

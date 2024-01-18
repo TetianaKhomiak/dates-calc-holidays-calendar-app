@@ -1,12 +1,12 @@
 # Dates-calculator-holidays-calendar-app
+## Web App for determining the time interval between selected dates and determining public holidays for a country in a selected year
+
 ## Website Preview
 
 > https://tetianakhomiak.github.io/dates-calc-holidays-calendar-app/
 
 ![GitHub Logo](https://github.com/TetianaKhomiak/dates-calc-holidays-calendar-app/blob/main/website-preview.jpg?raw=true)
 
-
-## Web App for determining the time interval between selected dates and determining public holidays for a country in a selected year. 
 
 ### Determining the time interval includes 🔍🔍🔍
 
@@ -25,7 +25,7 @@
 * Count the number of minutes
 * Count the number of seconds
 
-#### The user can see the last 10 results as a table after page reloading.
+#### The user can see the last 10 results as a table after page reloading
 
 ## Features 📋
 ⚡️ Fully Responsive                                                            

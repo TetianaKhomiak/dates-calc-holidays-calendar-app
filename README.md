@@ -1,1 +1,1 @@
-# dates-calc-holidays-calendar-app
+# Dates-calculator-holidays-calendar-app

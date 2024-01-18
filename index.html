@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="top-wrapper">
+        <button class="button-85" role="button">
+          <a href="holidays.html">Find holidays</a>
+        </button>
+        <div id="arrowAnim">
+          <a href="holidays.html">
+            <div class="arrowSliding">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay1">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+              <div class="arrow"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <form action="" class="form">
+          <div class="wrapper">
+            <div class="wrapper-start-date">
+              <div class="label-a1">Start Date</div>
+              <div class="inp-border a1">
+                <input
+                  id="start-date"
+                  class="input-date"
+                  type="date"
+                  name="start-date"
+                />
+              </div>
+            </div>
+            <div class="wrapper-end-date">
+              <div class="label-a2">End Date</div>
+              <div class="inp-border a2">
+                <input
+                  id="end-date"
+                  class="input-date"
+                  type="date"
+                  name="end-date"
+                  disabled
+                />
+              </div>
+              <div class="text">*not including the end date</div>
+            </div>
+          </div>
+
+          <div class="grid-container">
+            <div class="inp-border a3">
+              <select name="format" id="format-add" class="input">
+                <option class="add" value="Add" selected disabled>Add</option>
+                <option value="7" class="add-7days">7 days</option>
+                <option value="30">30 days</option>
+              </select>
+            </div>
+            <div class="inp-border a4">
+              <select name="format" id="format-select" class="input">
+                <option value="Select" selected disabled>Select</option>
+                <option value="All days">All days</option>
+                <option value="Weekends">Weekends</option>
+                <option value="Weekdays">Weekdays</option>
+              </select>
+            </div>
+            <div class="inp-border a5">
+              <select id="format-show" name="format" id="format" class="input">
+                <option class="show" value="Show" selected disabled>
+                  Show
+                </option>
+                <option value="Days">Days</option>
+                <option value="Hours">Hours</option>
+                <option value="Minutes">Minutes</option>
+                <option value="Seconds">Seconds</option>
+              </select>
+            </div>
+            <div class="result"></div>
+          </div>
+          <button id="calculate-button" class="calc-btn" style="--clr: #39ff14">
+            <span>CALCULATE</span><i></i>
+          </button>
+        </form>
+      </div>
+      <div class="table">
+        <h2>Last results: <span class="row-counter">0</span></h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-start-date">Start Date</th>
+                <th class="th-end-date">End Date</th>
+                <th class="th-result">Result</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <button
+          id="clear-btn"
+          type="button"
+          class="calc-btn clear-btn"
+          style="--clr: #39ff14"
+        >
+          <span>Clear list</span><i></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

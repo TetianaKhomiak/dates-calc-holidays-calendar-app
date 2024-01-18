@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holidays</title>
+    <link rel="stylesheet" href="holidays.css" />
+  </head>
+  <body>
+    <section>
+      <div class="wrapper">
+        <div class="top-wrapper">
+          <button class="button-85" role="button">
+            <a id="top-btn" href="index.html">Date calculator</a>
+          </button>
+          <div id="arrowAnim">
+            <a href="index.html">
+              <div class="arrowSliding">
+                <div class="arrow"></div>
+              </div>
+              <div class="arrowSliding delay1">
+                <div class="arrow"></div>
+              </div>
+              <div class="arrowSliding delay2">
+                <div class="arrow"></div>
+              </div>
+              <div class="arrowSliding delay3">
+                <div class="arrow"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <div class="country-wrapper">
+            <div class="country">
+              <label class="country-label" for="country">Select Country:</label>
+            </div>
+            <select class="form-select" id="country">
+              <option></option>
+            </select>
+          </div>
+          <div class="year-wrapper">
+            <div class="year">
+              <label class="year-label" for="year">Select Year:</label>
+            </div>
+            <select id="year" name="year">
+              <option value="year">year</option>
+            </select>
+          </div>
+          <div class="wrapper-btn">
+            <button class="input-btn">Show Result</button>
+            <div class="error"></div>
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <h2 class="list-name">List of Holidays:</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-date">
+                  <span class="title-date">Dates</span>
+                  <button type="button" class="table-btn">
+                    <img class="table-icon" src="IMG/sort.png" alt="sort" />
+                  </button>
+                </th>
+                <th class="th-title">Holidays</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="tr-result"></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="./holidays.js"></script>
+  </body>
+</html>

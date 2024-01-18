@@ -11,19 +11,19 @@
 ### Determining the time interval includes 🔍🔍🔍
 
 #### The user can choose time interval presets:
-* 'week' (7 days)
-* 'month' (30 days)
+* 7 days
+* 30 days
 
 #### The user can choose the following options:
-* 'All days'
-* 'Working days'
-* 'Weekends'
+* All days
+* Working days
+* Weekends
 
 #### The user can choose the following options:
-* 'Count the number of days'
-* 'Count the number of hours'
-* 'Count the number of minutes'
-* 'Count the number of seconds'
+* Count the number of days
+* Count the number of hours
+* Count the number of minutes
+* Count the number of seconds
 
 #### The user can see the last 10 results as a table after page reloading.
 

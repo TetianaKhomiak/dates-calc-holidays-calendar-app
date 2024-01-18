@@ -28,7 +28,6 @@ https://tetianakhomiak.github.io/dates-calc-holidays-calendar-app/
 #### The user can see the last 10 results as a table after page reloading.
 
 ## Features 📋
-⚡️ Fully Responsive
-⚡️ HTML5 & CSS3
-⚡️ Vanilla JS
-
+- ⚡️ Fully Responsive 
+- ⚡️ HTML5 & CSS3 
+- ⚡️ Vanilla JS 

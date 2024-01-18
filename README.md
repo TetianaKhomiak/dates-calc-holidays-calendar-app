@@ -8,7 +8,7 @@ https://tetianakhomiak.github.io/dates-calc-holidays-calendar-app/
 
 ## Web App for determining the time interval between selected dates and determining public holidays for a country in a selected year. 
 
-### Determining the time interval includes
+### Determining the time interval includes 🔍🔍🔍
 
 #### The user can choose time interval presets:
 * 'week' (7 days)

@@ -1,5 +1,5 @@
 # Dates-calculator-holidays-calendar-app
-## Web App for determining the time interval between selected dates and determining public holidays for a country in a selected year
+** Web App for determining the time interval between selected dates and determining public holidays for a country in a selected year**
 
 ## Website Preview
 

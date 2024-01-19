@@ -31,5 +31,5 @@ __Web App for determining the time interval between selected dates and determini
 ## Features 📋
 ⚡️ Responsive                                                            
 ⚡️ HTML5 & CSS3                                                                                  
-⚡️ Vanilla JS 
+⚡️ JavaScript
 

@@ -28,7 +28,7 @@ __Web App for determining the time interval between selected dates and determini
 #### User can see the last 10 results as a table after page reloading
 
 
-## Features 📋
+## Tools 📋
 ⚡️ Responsive                                                            
 ⚡️ HTML5 & CSS3                                                                                  
 ⚡️ JavaScript                                   
